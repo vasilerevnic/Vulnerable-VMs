@@ -1,0 +1,25 @@
+# VM images and archives belong on release/download hosting, not in Git.
+*.ova
+*.ovf
+*.vmdk
+*.vdi
+*.vhd
+*.vhdx
+*.vbox
+*.vbox-prev
+*.vmx
+*.nvram
+*.vmsd
+*.vmsn
+*.vmem
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+
+# Local VM runtime files.
+*.log
+*.lck/
+Snapshots/
